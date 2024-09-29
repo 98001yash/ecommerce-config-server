@@ -1,1 +1,9 @@
 
+management:
+  health:
+    circuitbreakers:
+      enabled: true
+  endpoints:
+    with:
+      exposure:
+        include: "*"
