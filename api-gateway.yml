@@ -2,9 +2,6 @@ jwt:
   secretKey: vghvkdfkosfkdjfsfvbvvhueghijfvgyuerfknvbnkfiugehjfdvkbhvnfghgjf
 
 spring:
-  application:
-    name: api-gateway
-
   cloud:
     gateway:
       routes:
@@ -37,3 +34,4 @@ eureka:
 logging:
   level:
     org.springframework: DEBUG
+
